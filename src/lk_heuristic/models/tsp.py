@@ -51,7 +51,7 @@ class Tsp:
 
         # a boolean indicating if tour nodes shall be shuffled at every restart of the optimization loop
         # shuffle will not be applied when a double bridge move is found using lk1 optimizer
-        self.shuffle = True
+        self.shuffle = False
 
         # initialize the cost matrix after having the nodes initialized into the tour object using the defined cost_function
         self.cost_matrix = {}
